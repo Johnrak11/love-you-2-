@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>B sl O</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>SL RAK ORT ?😹</h1>
+    </div>
+    <div class="answer">
+      <button id="yes">YES</button>
+      <button id="no">NO</button>
+    </div>
+  </div>
+
+  <script>
+    let number = 0
+    function displayText() {
+      alert('Johnrak love you 😂☹')
+    }
+    function hover(){
+      number++
+      if (number % 2 == 1) {
+        btnNo.style.right = '25%'
+      }else{
+        btnNo.style.right = '0%'
+      }
+      
+      console.log('hello')
+    }
+    let btnNo = document.querySelector('#no')
+    btnNo.addEventListener('mouseover',hover)
+    let btnYes = document.querySelector('#yes')
+    btnYes.addEventListener('click',displayText)
+  </script>
+</body>
+</html>
